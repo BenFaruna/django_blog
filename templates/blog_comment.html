@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="card">
+        <div class="card-title">
+            {{ blogpost.comment_set }}
+        </div>
+        <div class="card-body">
+            {{ comment.blogpost.body }}
+        </div>
+    <div class="card-footer">
+       <span>by {{ comment.author }} </span>
+    </div>
+    </div>
+    <h1>New comment</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <button class="btn btn-success" type="submit">Save</button>
+    </form>
+
+{% endblock %}
