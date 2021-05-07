@@ -29,7 +29,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['neobot-blog.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
