@@ -18,7 +18,7 @@
             </div>
 
             <div class="card-body">
-                {{ blog_post.body | truncatechars_html:10 }}
+                {{ blog_post.body | truncatechars_html:20 }}
             </div>
 
             {% if user.is_authenticated %}
