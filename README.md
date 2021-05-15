@@ -9,8 +9,6 @@ Below is the link of the website hosted on heroku
 
 Heroku: https://neobot-blog.herokuapp.com/
 
-For password reset: https://neobot-blog.herokuapp.com/accounts/reset_password/
-
 PS: Couldn't get comment to work since I was trying to use a class based view and limited time. 
 Anyways, I'll keep working on it. Also, ignore the terrible UI
 
